@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS financial_data (
+    symbol VARCHAR(10),
+    date DATE,
+    "open" FLOAT,
+    high FLOAT,
+    low FLOAT,
+    close FLOAT,
+    volume BIGINT,
+    timestamp TIMESTAMP
+);
